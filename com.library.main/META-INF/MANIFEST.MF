@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Main
+Bundle-SymbolicName: com.library.main
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.library.main.MainActivator
+Bundle-Vendor: LIBRARY
+Bundle-RequiredExecutionEnvironment: JavaSE-9
+Automatic-Module-Name: com.library.main
+Import-Package: com.library.bookcrud,
+ com.library.donationcrud,
+ com.library.membercrud,
+ com.library.ordercrud,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.library.main

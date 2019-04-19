@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Logins
+Bundle-SymbolicName: com.library.logins
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.library.logins.LoginsActivator
+Bundle-Vendor: LIBRARY
+Bundle-RequiredExecutionEnvironment: JavaSE-9
+Automatic-Module-Name: com.library.logins
+Import-Package: com.library.employee,
+ com.library.main,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

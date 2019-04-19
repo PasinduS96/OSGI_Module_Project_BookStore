@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bookcrud
+Bundle-SymbolicName: com.library.bookcrud
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.library.bookcrud.CrudActivator
+Bundle-Vendor: LIBRARY
+Bundle-RequiredExecutionEnvironment: JavaSE-9
+Automatic-Module-Name: com.library.bookcrud
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.library.bookcrud
